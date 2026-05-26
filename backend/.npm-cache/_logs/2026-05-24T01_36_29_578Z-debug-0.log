@@ -1,0 +1,508 @@
+0 verbose cli /Users/mac/.nvm/versions/node/v22.19.0/bin/node /Users/mac/.nvm/versions/node/v22.19.0/bin/npm
+1 info using npm@10.9.3
+2 info using node@v22.19.0
+3 silly config load:file:/Users/mac/.nvm/versions/node/v22.19.0/lib/node_modules/npm/npmrc
+4 silly config load:file:/Users/mac/Desktop/ai/brahmo-legal-ai/backend/.npmrc
+5 silly config load:file:/Users/mac/.npmrc
+6 silly config load:file:/Users/mac/.nvm/versions/node/v22.19.0/etc/npmrc
+7 verbose title npm install @langchain/google-genai @langchain/core
+8 verbose argv "install" "@langchain/google-genai" "@langchain/core" "--cache" ".npm-cache"
+9 verbose logfile logs-max:10 dir:/Users/mac/Desktop/ai/brahmo-legal-ai/backend/.npm-cache/_logs/2026-05-24T01_36_29_578Z-
+10 verbose logfile /Users/mac/Desktop/ai/brahmo-legal-ai/backend/.npm-cache/_logs/2026-05-24T01_36_29_578Z-debug-0.log
+11 silly logfile done cleaning log files
+12 silly packumentCache heap:2197815296 maxSize:549453824 maxEntrySize:274726912
+13 silly idealTree buildDeps
+14 silly fetch manifest @langchain/google-genai@*
+15 silly packumentCache full:https://registry.npmjs.org/@langchain%2fgoogle-genai cache-miss
+16 http fetch GET 200 https://registry.npmjs.org/@langchain%2fgoogle-genai 1519ms (cache miss)
+17 silly packumentCache full:https://registry.npmjs.org/@langchain%2fgoogle-genai set size:undefined disposed:false
+18 silly fetch manifest @langchain/core@*
+19 silly packumentCache full:https://registry.npmjs.org/@langchain%2fcore cache-miss
+20 http fetch GET 200 https://registry.npmjs.org/@langchain%2fcore 931ms (cache miss)
+21 silly packumentCache full:https://registry.npmjs.org/@langchain%2fcore set size:undefined disposed:false
+22 silly placeDep ROOT @langchain/core@1.1.48 OK for: brahmo-legal-ai-backend@1.0.0 want: *
+23 silly placeDep ROOT @langchain/google-genai@2.1.31 OK for: brahmo-legal-ai-backend@1.0.0 want: *
+24 silly fetch manifest @cfworker/json-schema@^4.0.2
+25 silly packumentCache full:https://registry.npmjs.org/@cfworker%2fjson-schema cache-miss
+26 silly fetch manifest @standard-schema/spec@^1.1.0
+27 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec cache-miss
+28 silly fetch manifest js-tiktoken@^1.0.12
+29 silly packumentCache full:https://registry.npmjs.org/js-tiktoken cache-miss
+30 http fetch GET 200 https://registry.npmjs.org/@cfworker%2fjson-schema 234ms (cache miss)
+31 silly packumentCache full:https://registry.npmjs.org/@cfworker%2fjson-schema set size:undefined disposed:false
+32 silly fetch manifest langsmith@>=0.5.0 <1.0.0
+33 silly packumentCache full:https://registry.npmjs.org/langsmith cache-miss
+34 http fetch GET 200 https://registry.npmjs.org/js-tiktoken 256ms (cache miss)
+35 silly packumentCache full:https://registry.npmjs.org/js-tiktoken set size:undefined disposed:false
+36 silly fetch manifest mustache@^4.2.0
+37 silly packumentCache full:https://registry.npmjs.org/mustache cache-miss
+38 http fetch GET 200 https://registry.npmjs.org/@standard-schema%2fspec 285ms (cache miss)
+39 silly packumentCache full:https://registry.npmjs.org/@standard-schema%2fspec set size:undefined disposed:false
+40 silly fetch manifest p-queue@^6.6.2
+41 silly packumentCache full:https://registry.npmjs.org/p-queue cache-miss
+42 http fetch GET 200 https://registry.npmjs.org/p-queue 101ms (cache miss)
+43 silly packumentCache full:https://registry.npmjs.org/p-queue set size:undefined disposed:false
+44 silly fetch manifest zod@^3.25.76 || ^4
+45 silly packumentCache full:https://registry.npmjs.org/zod cache-miss
+46 http fetch GET 200 https://registry.npmjs.org/mustache 324ms (cache miss)
+47 silly packumentCache full:https://registry.npmjs.org/mustache set size:undefined disposed:false
+48 http fetch GET 200 https://registry.npmjs.org/langsmith 444ms (cache miss)
+49 silly packumentCache full:https://registry.npmjs.org/langsmith set size:undefined disposed:false
+50 http fetch GET 200 https://registry.npmjs.org/zod 435ms (cache miss)
+51 silly packumentCache full:https://registry.npmjs.org/zod set size:undefined disposed:false
+52 silly fetch manifest @opentelemetry/api@*
+53 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi cache-miss
+54 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fapi 115ms (cache miss)
+55 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fapi set size:undefined disposed:false
+56 silly fetch manifest @opentelemetry/exporter-trace-otlp-proto@*
+57 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto cache-miss
+58 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto 1043ms (cache miss)
+59 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fexporter-trace-otlp-proto set size:undefined disposed:false
+60 silly fetch manifest @opentelemetry/sdk-trace-base@*
+61 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base cache-miss
+62 http fetch GET 200 https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base 122ms (cache miss)
+63 silly packumentCache full:https://registry.npmjs.org/@opentelemetry%2fsdk-trace-base set size:undefined disposed:false
+64 silly fetch manifest openai@*
+65 silly packumentCache full:https://registry.npmjs.org/openai cache-miss
+66 http fetch GET 200 https://registry.npmjs.org/openai 547ms (cache miss)
+67 silly packumentCache full:https://registry.npmjs.org/openai set size:undefined disposed:false
+68 silly fetch manifest ws@^8.18.0
+69 silly packumentCache full:https://registry.npmjs.org/ws cache-miss
+70 http fetch GET 200 https://registry.npmjs.org/ws 83ms (cache miss)
+71 silly packumentCache full:https://registry.npmjs.org/ws set size:undefined disposed:false
+72 silly fetch manifest bufferutil@^4.0.1
+73 silly packumentCache full:https://registry.npmjs.org/bufferutil cache-miss
+74 http fetch GET 200 https://registry.npmjs.org/bufferutil 91ms (cache miss)
+75 silly packumentCache full:https://registry.npmjs.org/bufferutil set size:undefined disposed:false
+76 silly fetch manifest utf-8-validate@>=5.0.2
+77 silly packumentCache full:https://registry.npmjs.org/utf-8-validate cache-miss
+78 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 82ms (cache miss)
+79 silly packumentCache full:https://registry.npmjs.org/utf-8-validate set size:undefined disposed:false
+80 silly placeDep ROOT @cfworker/json-schema@4.1.1 OK for: @langchain/core@1.1.48 want: ^4.0.2
+81 silly placeDep ROOT @standard-schema/spec@1.1.0 OK for: @langchain/core@1.1.48 want: ^1.1.0
+82 silly placeDep ROOT js-tiktoken@1.0.21 OK for: @langchain/core@1.1.48 want: ^1.0.12
+83 silly placeDep ROOT langsmith@0.7.2 OK for: @langchain/core@1.1.48 want: >=0.5.0 <1.0.0
+84 silly placeDep ROOT mustache@4.2.0 OK for: @langchain/core@1.1.48 want: ^4.2.0
+85 silly placeDep ROOT p-queue@6.6.2 OK for: @langchain/core@1.1.48 want: ^6.6.2
+86 silly placeDep ROOT zod@4.4.3 OK for: @langchain/core@1.1.48 want: ^3.25.76 || ^4
+87 silly fetch manifest p-queue@6.6.2
+88 silly packumentCache full:https://registry.npmjs.org/p-queue cache-miss
+89 silly fetch manifest p-timeout@^3.2.0
+90 silly packumentCache full:https://registry.npmjs.org/p-timeout cache-miss
+91 silly fetch manifest eventemitter3@^4.0.4
+92 silly packumentCache full:https://registry.npmjs.org/eventemitter3 cache-miss
+93 http cache https://registry.npmjs.org/p-queue 13ms (cache hit)
+94 silly packumentCache full:https://registry.npmjs.org/p-queue set size:179885 disposed:false
+95 http fetch GET 200 https://registry.npmjs.org/eventemitter3 306ms (cache miss)
+96 silly packumentCache full:https://registry.npmjs.org/eventemitter3 set size:undefined disposed:false
+97 http fetch GET 200 https://registry.npmjs.org/p-timeout 447ms (cache miss)
+98 silly packumentCache full:https://registry.npmjs.org/p-timeout set size:undefined disposed:false
+99 silly placeDep ROOT eventemitter3@4.0.7 OK for: p-queue@6.6.2 want: ^4.0.4
+100 silly placeDep ROOT p-timeout@3.2.0 OK for: p-queue@6.6.2 want: ^3.2.0
+101 silly fetch manifest p-finally@^1.0.0
+102 silly packumentCache full:https://registry.npmjs.org/p-finally cache-miss
+103 http fetch GET 200 https://registry.npmjs.org/p-finally 82ms (cache miss)
+104 silly packumentCache full:https://registry.npmjs.org/p-finally set size:undefined disposed:false
+105 silly placeDep ROOT p-finally@1.0.0 OK for: p-timeout@3.2.0 want: ^1.0.0
+106 silly reify moves {}
+107 silly audit bulk request {
+107 silly audit   '@anthropic-ai/sdk': [ '0.24.3' ],
+107 silly audit   '@google/generative-ai': [ '0.24.1' ],
+107 silly audit   '@huggingface/jinja': [ '0.2.2' ],
+107 silly audit   '@protobufjs/aspromise': [ '1.1.2' ],
+107 silly audit   '@protobufjs/base64': [ '1.1.2' ],
+107 silly audit   '@protobufjs/codegen': [ '2.0.5' ],
+107 silly audit   '@protobufjs/eventemitter': [ '1.1.1' ],
+107 silly audit   '@protobufjs/fetch': [ '1.1.1' ],
+107 silly audit   '@protobufjs/float': [ '1.0.2' ],
+107 silly audit   '@protobufjs/inquire': [ '1.1.2' ],
+107 silly audit   '@protobufjs/path': [ '1.1.2' ],
+107 silly audit   '@protobufjs/pool': [ '1.1.0' ],
+107 silly audit   '@protobufjs/utf8': [ '1.1.1' ],
+107 silly audit   '@supabase/auth-js': [ '2.106.1' ],
+107 silly audit   '@supabase/functions-js': [ '2.106.1' ],
+107 silly audit   '@supabase/phoenix': [ '0.4.2' ],
+107 silly audit   '@supabase/postgrest-js': [ '2.106.1' ],
+107 silly audit   '@supabase/realtime-js': [ '2.106.1' ],
+107 silly audit   '@supabase/storage-js': [ '2.106.1' ],
+107 silly audit   '@supabase/supabase-js': [ '2.106.1' ],
+107 silly audit   '@types/long': [ '4.0.2' ],
+107 silly audit   '@types/node': [ '18.19.130' ],
+107 silly audit   '@types/node-fetch': [ '2.6.13' ],
+107 silly audit   '@xenova/transformers': [ '2.17.2' ],
+107 silly audit   '@xmldom/xmldom': [ '0.8.13' ],
+107 silly audit   'abort-controller': [ '3.0.0' ],
+107 silly audit   accepts: [ '1.3.8' ],
+107 silly audit   agentkeepalive: [ '4.6.0' ],
+107 silly audit   anymatch: [ '3.1.3' ],
+107 silly audit   'append-field': [ '1.0.0' ],
+107 silly audit   argparse: [ '1.0.10' ],
+107 silly audit   'array-flatten': [ '1.1.1' ],
+107 silly audit   asynckit: [ '0.4.0' ],
+107 silly audit   b4a: [ '1.8.1' ],
+107 silly audit   'balanced-match': [ '4.0.4' ],
+107 silly audit   'bare-events': [ '2.8.3' ],
+107 silly audit   'bare-fs': [ '4.7.1' ],
+107 silly audit   'bare-os': [ '3.9.1' ],
+107 silly audit   'bare-path': [ '3.0.0' ],
+107 silly audit   'bare-stream': [ '2.13.1' ],
+107 silly audit   'bare-url': [ '2.4.3' ],
+107 silly audit   'base64-js': [ '1.5.1' ],
+107 silly audit   'binary-extensions': [ '2.3.0' ],
+107 silly audit   bl: [ '4.1.0' ],
+107 silly audit   'readable-stream': [ '3.6.2', '2.3.8' ],
+107 silly audit   bluebird: [ '3.4.7' ],
+107 silly audit   'body-parser': [ '1.20.5' ],
+107 silly audit   'brace-expansion': [ '5.0.6' ],
+107 silly audit   braces: [ '3.0.3' ],
+107 silly audit   buffer: [ '5.7.1' ],
+107 silly audit   'buffer-from': [ '1.1.2' ],
+107 silly audit   busboy: [ '1.6.0' ],
+107 silly audit   bytes: [ '3.1.2' ],
+107 silly audit   'call-bind-apply-helpers': [ '1.0.2' ],
+107 silly audit   'call-bound': [ '1.0.4' ],
+107 silly audit   chokidar: [ '3.6.0' ],
+107 silly audit   chownr: [ '1.1.4' ],
+107 silly audit   color: [ '4.2.3' ],
+107 silly audit   'color-convert': [ '2.0.1' ],
+107 silly audit   'color-name': [ '1.1.4' ],
+107 silly audit   'color-string': [ '1.9.1' ],
+107 silly audit   'combined-stream': [ '1.0.8' ],
+107 silly audit   'concat-stream': [ '1.6.2' ],
+107 silly audit   'content-disposition': [ '0.5.4' ],
+107 silly audit   'content-type': [ '1.0.5' ],
+107 silly audit   cookie: [ '0.7.2' ],
+107 silly audit   'cookie-signature': [ '1.0.7' ],
+107 silly audit   'core-util-is': [ '1.0.3' ],
+107 silly audit   cors: [ '2.8.6' ],
+107 silly audit   debug: [ '2.6.9', '4.4.3' ],
+107 silly audit   'decompress-response': [ '6.0.0' ],
+107 silly audit   'deep-extend': [ '0.6.0' ],
+107 silly audit   'delayed-stream': [ '1.0.0' ],
+107 silly audit   depd: [ '2.0.0' ],
+107 silly audit   destroy: [ '1.2.0' ],
+107 silly audit   'detect-libc': [ '2.1.2' ],
+107 silly audit   diff: [ '5.2.2' ],
+107 silly audit   'dingbat-to-unicode': [ '1.0.1' ],
+107 silly audit   dotenv: [ '16.6.1' ],
+107 silly audit   duck: [ '0.1.12' ],
+107 silly audit   'dunder-proto': [ '1.0.1' ],
+107 silly audit   'ee-first': [ '1.1.1' ],
+107 silly audit   encodeurl: [ '2.0.0' ],
+107 silly audit   'end-of-stream': [ '1.4.5' ],
+107 silly audit   'es-define-property': [ '1.0.1' ],
+107 silly audit   'es-errors': [ '1.3.0' ],
+107 silly audit   'es-object-atoms': [ '1.1.2' ],
+107 silly audit   'es-set-tostringtag': [ '2.1.0' ],
+107 silly audit   'escape-html': [ '1.0.3' ],
+107 silly audit   etag: [ '1.8.1' ],
+107 silly audit   'event-target-shim': [ '5.0.1' ],
+107 silly audit   'events-universal': [ '1.0.1' ],
+107 silly audit   'expand-template': [ '2.0.3' ],
+107 silly audit   express: [ '4.22.2' ],
+107 silly audit   'fast-fifo': [ '1.3.2' ],
+107 silly audit   'fill-range': [ '7.1.1' ],
+107 silly audit   finalhandler: [ '1.3.2' ],
+107 silly audit   flatbuffers: [ '1.12.0' ],
+107 silly audit   'form-data': [ '4.0.5' ],
+107 silly audit   'form-data-encoder': [ '1.7.2' ],
+107 silly audit   'formdata-node': [ '4.4.1' ],
+107 silly audit   'web-streams-polyfill': [ '4.0.0-beta.3', '3.3.3' ],
+107 silly audit   forwarded: [ '0.2.0' ],
+107 silly audit   fresh: [ '0.5.2' ],
+107 silly audit   'fs-constants': [ '1.0.0' ],
+107 silly audit   fsevents: [ '2.3.3' ],
+107 silly audit   'function-bind': [ '1.1.2' ],
+107 silly audit   'get-intrinsic': [ '1.3.0' ],
+107 silly audit   'get-proto': [ '1.0.1' ],
+107 silly audit   'github-from-package': [ '0.0.0' ],
+107 silly audit   'glob-parent': [ '5.1.2' ],
+107 silly audit   gopd: [ '1.2.0' ],
+107 silly audit   'guid-typescript': [ '1.0.9' ],
+107 silly audit   'has-flag': [ '3.0.0' ],
+107 silly audit   'has-symbols': [ '1.1.0' ],
+107 silly audit   'has-tostringtag': [ '1.0.2' ],
+107 silly audit   hasown: [ '2.0.3' ],
+107 silly audit   'http-errors': [ '2.0.1' ],
+107 silly audit   'humanize-ms': [ '1.2.1' ],
+107 silly audit   'iceberg-js': [ '0.8.1' ],
+107 silly audit   'iconv-lite': [ '0.4.24' ],
+107 silly audit   ieee754: [ '1.2.1' ],
+107 silly audit   'ignore-by-default': [ '1.0.1' ],
+107 silly audit   immediate: [ '3.0.6' ],
+107 silly audit   inherits: [ '2.0.4' ],
+107 silly audit   ini: [ '1.3.8' ],
+107 silly audit   'ipaddr.js': [ '1.9.1' ],
+107 silly audit   'is-arrayish': [ '0.3.4' ],
+107 silly audit   'is-binary-path': [ '2.1.0' ],
+107 silly audit   'is-extglob': [ '2.1.1' ],
+107 silly audit   'is-glob': [ '4.0.3' ],
+107 silly audit   'is-number': [ '7.0.0' ],
+107 silly audit   isarray: [ '1.0.0' ],
+107 silly audit   jszip: [ '3.10.1' ],
+107 silly audit   lie: [ '3.3.0' ],
+107 silly audit   long: [ '4.0.0' ],
+107 silly audit   lop: [ '0.4.2' ],
+107 silly audit   mammoth: [ '1.12.0' ],
+107 silly audit   'math-intrinsics': [ '1.1.0' ],
+107 silly audit   'media-typer': [ '0.3.0' ],
+107 silly audit   'merge-descriptors': [ '1.0.3' ],
+107 silly audit   methods: [ '1.1.2' ],
+107 silly audit   mime: [ '1.6.0' ],
+107 silly audit   'mime-db': [ '1.52.0' ],
+107 silly audit   'mime-types': [ '2.1.35' ],
+107 silly audit   'mimic-response': [ '3.1.0' ],
+107 silly audit   minimatch: [ '10.2.5' ],
+107 silly audit   minimist: [ '1.2.8' ],
+107 silly audit   mkdirp: [ '0.5.6' ],
+107 silly audit   'mkdirp-classic': [ '0.5.3' ],
+107 silly audit   ms: [ '2.0.0', '2.1.3' ],
+107 silly audit   multer: [ '1.4.5-lts.2' ],
+107 silly audit   'napi-build-utils': [ '2.0.0' ],
+107 silly audit   negotiator: [ '0.6.3' ],
+107 silly audit   'node-abi': [ '3.92.0' ],
+107 silly audit   'node-addon-api': [ '6.1.0' ],
+107 silly audit   'node-domexception': [ '1.0.0' ],
+107 silly audit   'node-ensure': [ '0.0.0' ],
+107 silly audit   'node-fetch': [ '2.7.0' ],
+107 silly audit   nodemon: [ '3.1.14' ],
+107 silly audit   'normalize-path': [ '3.0.0' ],
+107 silly audit   'object-assign': [ '4.1.1' ],
+107 silly audit   'object-inspect': [ '1.13.4' ],
+107 silly audit   'on-finished': [ '2.4.1' ],
+107 silly audit   once: [ '1.4.0' ],
+107 silly audit   'onnx-proto': [ '4.0.4' ],
+107 silly audit   'onnxruntime-common': [ '1.14.0' ],
+107 silly audit   'onnxruntime-node': [ '1.14.0' ],
+107 silly audit   'onnxruntime-web': [ '1.14.0' ],
+107 silly audit   option: [ '0.2.4' ],
+107 silly audit   pako: [ '1.0.11' ],
+107 silly audit   parseurl: [ '1.3.3' ],
+107 silly audit   'path-is-absolute': [ '1.0.1' ],
+107 silly audit   'path-to-regexp': [ '0.1.13' ],
+107 silly audit   'pdf-parse': [ '1.1.4' ],
+107 silly audit   picomatch: [ '2.3.2' ],
+107 silly audit   platform: [ '1.3.6' ],
+107 silly audit   'prebuild-install': [ '7.1.3' ],
+107 silly audit   'tar-fs': [ '2.1.4', '3.1.2' ],
+107 silly audit   'tar-stream': [ '2.2.0', '3.2.0' ],
+107 silly audit   'process-nextick-args': [ '2.0.1' ],
+107 silly audit   protobufjs: [ '6.11.6' ],
+107 silly audit   'proxy-addr': [ '2.0.7' ],
+107 silly audit   'pstree.remy': [ '1.1.8' ],
+107 silly audit   pump: [ '3.0.4' ],
+107 silly audit   qs: [ '6.15.2' ],
+107 silly audit   'range-parser': [ '1.2.1' ],
+107 silly audit   'raw-body': [ '2.5.3' ],
+107 silly audit   rc: [ '1.2.8' ],
+107 silly audit   'safe-buffer': [ '5.1.2', '5.2.1' ],
+107 silly audit   readdirp: [ '3.6.0' ],
+107 silly audit   'safer-buffer': [ '2.1.2' ],
+107 silly audit   semver: [ '7.8.1' ],
+107 silly audit   send: [ '0.19.2' ],
+107 silly audit   'serve-static': [ '1.16.3' ],
+107 silly audit   setimmediate: [ '1.0.5' ],
+107 silly audit   setprototypeof: [ '1.2.0' ],
+107 silly audit   sharp: [ '0.32.6' ],
+107 silly audit   'side-channel': [ '1.1.0' ],
+107 silly audit   'side-channel-list': [ '1.0.1' ],
+107 silly audit   'side-channel-map': [ '1.0.1' ],
+107 silly audit   'side-channel-weakmap': [ '1.0.2' ],
+107 silly audit   'simple-concat': [ '1.0.1' ],
+107 silly audit   'simple-get': [ '4.0.1' ],
+107 silly audit   'simple-swizzle': [ '0.2.4' ],
+107 silly audit   'simple-update-notifier': [ '2.0.0' ],
+107 silly audit   'sprintf-js': [ '1.0.3' ],
+107 silly audit   statuses: [ '2.0.2' ],
+107 silly audit   streamsearch: [ '1.1.0' ],
+107 silly audit   streamx: [ '2.25.0' ],
+107 silly audit   string_decoder: [ '1.1.1' ],
+107 silly audit   'strip-json-comments': [ '2.0.1' ],
+107 silly audit   'supports-color': [ '5.5.0' ],
+107 silly audit   teex: [ '1.0.1' ],
+107 silly audit   'text-decoder': [ '1.2.7' ],
+107 silly audit   'to-regex-range': [ '5.0.1' ],
+107 silly audit   toidentifier: [ '1.0.1' ],
+107 silly audit   touch: [ '3.1.1' ],
+107 silly audit   tr46: [ '0.0.3' ],
+107 silly audit   tslib: [ '2.8.1' ],
+107 silly audit   'tunnel-agent': [ '0.6.0' ],
+107 silly audit   'type-is': [ '1.6.18' ],
+107 silly audit   typedarray: [ '0.0.6' ],
+107 silly audit   undefsafe: [ '2.0.5' ],
+107 silly audit   underscore: [ '1.13.8' ],
+107 silly audit   'undici-types': [ '5.26.5' ],
+107 silly audit   unpipe: [ '1.0.0' ],
+107 silly audit   'util-deprecate': [ '1.0.2' ],
+107 silly audit   'utils-merge': [ '1.0.1' ],
+107 silly audit   vary: [ '1.1.2' ],
+107 silly audit   'webidl-conversions': [ '3.0.1' ],
+107 silly audit   'whatwg-url': [ '5.0.0' ],
+107 silly audit   wrappy: [ '1.0.2' ],
+107 silly audit   xmlbuilder: [ '10.1.1' ],
+107 silly audit   xtend: [ '4.0.2' ],
+107 silly audit   '@langchain/core': [ '1.1.48' ],
+107 silly audit   '@langchain/google-genai': [ '2.1.31' ],
+107 silly audit   '@cfworker/json-schema': [ '4.1.1' ],
+107 silly audit   '@standard-schema/spec': [ '1.1.0' ],
+107 silly audit   'js-tiktoken': [ '1.0.21' ],
+107 silly audit   langsmith: [ '0.7.2' ],
+107 silly audit   mustache: [ '4.2.0' ],
+107 silly audit   'p-queue': [ '6.6.2' ],
+107 silly audit   zod: [ '4.4.3' ],
+107 silly audit   eventemitter3: [ '4.0.7' ],
+107 silly audit   'p-timeout': [ '3.2.0' ],
+107 silly audit   'p-finally': [ '1.0.0' ]
+107 silly audit }
+108 http cache p-finally@https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz 0ms (cache hit)
+109 http cache p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz 0ms (cache hit)
+110 http cache p-queue@https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz 0ms (cache hit)
+111 http cache eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 0ms (cache hit)
+112 http cache zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz 0ms (cache hit)
+113 http cache js-tiktoken@https://registry.npmjs.org/js-tiktoken/-/js-tiktoken-1.0.21.tgz 0ms (cache hit)
+114 http cache @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 0ms (cache hit)
+115 http cache mustache@https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz 0ms (cache hit)
+116 http cache langsmith@https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz 0ms (cache hit)
+117 http cache @cfworker/json-schema@https://registry.npmjs.org/@cfworker/json-schema/-/json-schema-4.1.1.tgz 0ms (cache hit)
+118 http cache @langchain/core@https://registry.npmjs.org/@langchain/core/-/core-1.1.48.tgz 0ms (cache hit)
+119 http cache @langchain/google-genai@https://registry.npmjs.org/@langchain/google-genai/-/google-genai-2.1.31.tgz 0ms (cache hit)
+120 silly tarball no local data for p-queue@https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz. Extracting by manifest.
+121 silly tarball no local data for p-finally@https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz. Extracting by manifest.
+122 silly tarball no local data for p-timeout@https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz. Extracting by manifest.
+123 silly tarball no local data for zod@https://registry.npmjs.org/zod/-/zod-4.4.3.tgz. Extracting by manifest.
+124 silly tarball no local data for eventemitter3@https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz. Extracting by manifest.
+125 silly tarball no local data for @standard-schema/spec@https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz. Extracting by manifest.
+126 silly tarball no local data for @cfworker/json-schema@https://registry.npmjs.org/@cfworker/json-schema/-/json-schema-4.1.1.tgz. Extracting by manifest.
+127 silly tarball no local data for @langchain/core@https://registry.npmjs.org/@langchain/core/-/core-1.1.48.tgz. Extracting by manifest.
+128 silly tarball no local data for @langchain/google-genai@https://registry.npmjs.org/@langchain/google-genai/-/google-genai-2.1.31.tgz. Extracting by manifest.
+129 silly tarball no local data for langsmith@https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz. Extracting by manifest.
+130 silly tarball no local data for js-tiktoken@https://registry.npmjs.org/js-tiktoken/-/js-tiktoken-1.0.21.tgz. Extracting by manifest.
+131 silly tarball no local data for mustache@https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz. Extracting by manifest.
+132 http fetch GET 200 https://registry.npmjs.org/p-timeout/-/p-timeout-3.2.0.tgz 106ms (cache miss)
+133 http fetch GET 200 https://registry.npmjs.org/p-finally/-/p-finally-1.0.0.tgz 108ms (cache miss)
+134 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/advisories/bulk 342ms
+135 silly audit report {
+135 silly audit report   protobufjs: [
+135 silly audit report     {
+135 silly audit report       id: 1118641,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-66ff-xgx4-vchm',
+135 silly audit report       title: 'protobuf.js: Code injection through bytes field defaults in generated toObject code',
+135 silly audit report       severity: 'high',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118924,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-2pr8-phx7-x9h3',
+135 silly audit report       title: 'protobuf.js: Denial of service from crafted field names in generated code',
+135 silly audit report       severity: 'moderate',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118926,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-fx83-v9x8-x52w',
+135 silly audit report       title: 'protobuf.js: Prototype injection in generated message constructors',
+135 silly audit report       severity: 'moderate',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118928,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-75px-5xx7-5xc7',
+135 silly audit report       title: 'protobuf.js: Code generation gadget after prototype pollution',
+135 silly audit report       severity: 'high',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118930,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-jvwf-75h9-cwgg',
+135 silly audit report       title: 'protobuf.js: Process-wide denial of service through unsafe option paths',
+135 silly audit report       severity: 'high',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118932,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-685m-2w69-288q',
+135 silly audit report       title: 'protobuf.js: Denial of service through unbounded protobuf recursion',
+135 silly audit report       severity: 'high',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1118935,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-q6x5-8v7m-xcrf',
+135 silly audit report       title: 'protobufjs has overlong UTF-8 decoding',
+135 silly audit report       severity: 'moderate',
+135 silly audit report       vulnerable_versions: '<=7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1119378,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-jggg-4jg4-v7c6',
+135 silly audit report       title: 'protobufjs: Denial of Service via unbounded recursive JSON descriptor expansion',
+135 silly audit report       severity: 'moderate',
+135 silly audit report       vulnerable_versions: '<=7.5.7',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     },
+135 silly audit report     {
+135 silly audit report       id: 1117571,
+135 silly audit report       url: 'https://github.com/advisories/GHSA-xq3m-2v4x-88gg',
+135 silly audit report       title: 'Arbitrary code execution in protobufjs',
+135 silly audit report       severity: 'critical',
+135 silly audit report       vulnerable_versions: '<7.5.5',
+135 silly audit report       cwe: [Array],
+135 silly audit report       cvss: [Object]
+135 silly audit report     }
+135 silly audit report   ]
+135 silly audit report }
+136 silly packumentCache corgi:https://registry.npmjs.org/protobufjs cache-miss
+137 http fetch GET 200 https://registry.npmjs.org/eventemitter3/-/eventemitter3-4.0.7.tgz 404ms (cache miss)
+138 http fetch GET 200 https://registry.npmjs.org/p-queue/-/p-queue-6.6.2.tgz 431ms (cache miss)
+139 http fetch GET 200 https://registry.npmjs.org/@standard-schema/spec/-/spec-1.1.0.tgz 630ms (cache miss)
+140 http fetch GET 200 https://registry.npmjs.org/mustache/-/mustache-4.2.0.tgz 699ms (cache miss)
+141 http fetch GET 200 https://registry.npmjs.org/protobufjs 621ms (cache revalidated)
+142 silly packumentCache corgi:https://registry.npmjs.org/protobufjs set size:269668 disposed:false
+143 silly packumentCache corgi:https://registry.npmjs.org/onnx-proto cache-miss
+144 http fetch GET 200 https://registry.npmjs.org/@cfworker/json-schema/-/json-schema-4.1.1.tgz 1365ms (cache miss)
+145 http fetch GET 200 https://registry.npmjs.org/onnx-proto 439ms (cache revalidated)
+146 silly packumentCache corgi:https://registry.npmjs.org/onnx-proto set size:10521 disposed:false
+147 silly packumentCache corgi:https://registry.npmjs.org/onnxruntime-web cache-miss
+148 http fetch GET 200 https://registry.npmjs.org/@langchain/google-genai/-/google-genai-2.1.31.tgz 1525ms (cache miss)
+149 http fetch GET 200 https://registry.npmjs.org/onnxruntime-web 449ms (cache revalidated)
+150 silly packumentCache corgi:https://registry.npmjs.org/onnxruntime-web set size:674575 disposed:false
+151 silly packumentCache corgi:https://registry.npmjs.org/@xenova%2ftransformers cache-miss
+152 http fetch GET 200 https://registry.npmjs.org/@xenova%2ftransformers 795ms (cache revalidated)
+153 silly packumentCache corgi:https://registry.npmjs.org/@xenova%2ftransformers set size:93845 disposed:false
+154 http fetch GET 200 https://registry.npmjs.org/langsmith/-/langsmith-0.7.2.tgz 3504ms (cache miss)
+155 http fetch GET 200 https://registry.npmjs.org/zod/-/zod-4.4.3.tgz 4359ms (cache miss)
+156 http fetch GET 200 https://registry.npmjs.org/js-tiktoken/-/js-tiktoken-1.0.21.tgz 4958ms (cache miss)
+157 http fetch GET 200 https://registry.npmjs.org/@langchain/core/-/core-1.1.48.tgz 6065ms (cache miss)
+158 silly ADD node_modules/p-finally
+159 silly ADD node_modules/p-timeout
+160 silly ADD node_modules/eventemitter3
+161 silly ADD node_modules/zod
+162 silly ADD node_modules/p-queue
+163 silly ADD node_modules/mustache
+164 silly ADD node_modules/langsmith
+165 silly ADD node_modules/js-tiktoken
+166 silly ADD node_modules/@standard-schema/spec
+167 silly ADD node_modules/@cfworker/json-schema
+168 silly ADD node_modules/@langchain/google-genai
+169 silly ADD node_modules/@langchain/core
+170 verbose cwd /Users/mac/Desktop/ai/brahmo-legal-ai/backend
+171 verbose os Darwin 23.6.0
+172 verbose node v22.19.0
+173 verbose npm  v10.9.3
+174 verbose exit 0
+175 info ok
