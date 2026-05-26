@@ -1,5 +1,43 @@
-frontend/.npm-cache/
-frontend/node_modules/
-frontend/.vite/
-backend/node_modules/
-backend/.env
+# dependencies
+node_modules/
+
+# env
+.env
+.env.local
+.env.development.local
+.env.production.local
+
+# build folders
+dist/
+build/
+.next/
+out/
+
+# logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+
+# coverage
+coverage/
+
+# uploads
+uploads/
+
+# temp
+tmp/
+temp/
+
+# vscode
+.vscode/
+
+# database
+*.sqlite
+*.db
+
+# generated files
+*.zip
+*.tar
