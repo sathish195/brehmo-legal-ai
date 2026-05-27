@@ -30,7 +30,7 @@ router.post('/upload', upload.single('document'), async (req, res) => {
 
         // 4. Score Clauses via Claude
         const constraints = await db.getConstraints();
-        console.log(constraints);
+        console.log(constraints, "rules-----------------");
 
         // Scoring in parallel to save time
         clauses = await Promise.all(clauses.map(async c => {
